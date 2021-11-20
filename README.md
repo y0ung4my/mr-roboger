@@ -11,3 +11,7 @@ Describe: beepBoop()
 **Test:** "It should return an array with 0 and 'beep' if the number 1 is inputted"
 **Code:** beepboop(1);
 **Expected Output:** [0, "beep"]
+
+**Test:** "It should return an array with 0, "Beep!" and "Boop" if the number 2 is inputted"
+**Code:** beepBoop(2);
+**Expected Output:** [0, "Beep!", "Boop!"]
