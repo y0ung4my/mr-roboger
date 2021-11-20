@@ -7,7 +7,7 @@ function beepBoop(inputtedNumber) {
     }
     else if (i.toString().includes("2")) {
     numberRangeArray.push("Boop!");
-    } else if (i === 1) {
+    } else if (i.toString().includes("1")) {
     numberRangeArray.push("Beep!");
     } else {
     numberRangeArray.push(i);

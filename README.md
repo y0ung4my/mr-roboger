@@ -27,3 +27,7 @@ Describe: beepBoop()
 **Test:** "It should return "Boop!" to any inputted number containing a 2"  
 **Code:** beepBoop(13);  
 **Expected Output:** [0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, 10, 11, "Boop!", "Won't You be my neighbor?"]  
+
+**Test:** "It should return "Boop!" to any inputted number containing a 1"  
+**Code:** beepBoop(13);  
+**Expected Output:** [0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, 10, "Beep!", "Boop!", "Won't You be my neighbor?"]
