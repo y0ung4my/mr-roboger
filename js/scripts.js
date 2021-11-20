@@ -21,7 +21,9 @@ $(document).ready(function(){
   $("form#mr-roboger").submit(function(event){
     event.preventDefault();
     const numberInput = $("#number-input").val();
-    $('#robot-output').html(beepBoop(numberInput));
+    $("#robot-output").html(beepBoop(numberInput));
+    $(".box-2").show();
   });
+  
 
 });

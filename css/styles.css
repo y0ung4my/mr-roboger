@@ -2,26 +2,34 @@ body {
   color:yellow;
   font-family: sans-serif;
   background-image:url(https://misterrogers.org/wp-content/uploads/2018/08/HisMessage_Intro2.jpg);
+  background-repeat: no-repeat;
+  background-color:steelblue;
 }
 
-.box {
-  width: auto;
+.box, .box-2, .result {
+  width: 75%;
   margin: 50px;
   padding: 15px;
-  border: solid rgb(1, 12, 6);
-  border-width: 5px;
+  border: solid black;
+  border-width: 2px;
   background-color: yellow;
   box-sizing: border-box;
   color: black;
-  opacity: 50%;
+  opacity: 65%;
+  float: left;
+}
+
+.box-2 {
+  display: none;
+  width: 100%;
+  box-sizing: content-box;
 }
 
 .result {
   width: auto;
-  margin: 50px;
-  padding: 15px;
+  padding: 5px;
   background-color: white;
-  box-sizing: border-box;
-  color: black;
   opacity: 100%;
+  overflow: auto;
+  border: solid 1px gray;
 }
