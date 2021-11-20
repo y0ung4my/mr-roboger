@@ -17,5 +17,9 @@ Describe: beepBoop()
 **Expected Output:** [0, "Beep!", "Boop!"]  
 
 **Test:** "It should return an array with 0, 'Beep!', 'Boop!', and 'Won't you be my neighbor?' if the number 3 is inputted"  
-**Code:** beepBoop(3)  
+**Code:** beepBoop(3);  
 **Expected Output:** [0, "Beep!", "Boop!", "Won't you be my neighbor?"]  
+
+**Test:** "It should return "Won't you be my neighborhor" in place of a number containing 3 in any of its digits. So, if the number 13 is inputted, the last index should display "Won't you be my neighbor?"  
+**Code:** beepBoop(13;  
+**Expected Output*:** [0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, 10, 11, 12, "Won't You be my neighbor?"]
