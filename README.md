@@ -72,3 +72,7 @@ Questions or comments: youngamy1223@gmail.com
 **Test:** "It should return "Boop!" to any inputted number containing a 1"  
 **Code:** beepBoop(13);  
 **Expected Output:** [0, "Beep!", "Boop!", "Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, 10, "Beep!", "Boop!", "Won't You be my neighbor?"]
+
+**Test:** "It should return the array of numbers as a string"
+**Code:** beepBoop(13);
+**Expected Output":** "0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, 10, Beep!, Boop!, Won't You be my neighbor?"
