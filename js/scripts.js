@@ -24,6 +24,4 @@ $(document).ready(function(){
     $("#robot-output").html(beepBoop(numberInput));
     $(".box-2").show();
   });
-  
-
 });
