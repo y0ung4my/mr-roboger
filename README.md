@@ -24,7 +24,7 @@ _Use as a template for further development_
 2) enter the following into terminal: `# git clone https://github.com/y0ung4my/mr-roboger`
 3) to view the webpage as you make changes, you can open the index.html file in a web browser and refresh the page once the changes are saved.
 
-To view in GitHub Pages (requires internet connection)_
+To view in GitHub Pages (requires internet connection)
 https://y0ung4my.github.io/mr-roboger/
 
 ## Known Bugs
